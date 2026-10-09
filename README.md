@@ -8,15 +8,12 @@ the treasury tracks only real money: what was spent and what was earned.
 (active listing search and public shop stats) together with Claude, so I can decide which
 original designs to create. The other agents are still simulated.
 
-## Run locally
+## About this repository
 
-```bash
-npm install
-cp .env.example .env.local   # add your Etsy keystring + shared secret and a Claude API key
-npm run dev                  # http://localhost:5173
-```
-
-API keys stay in the local dev server (`server/`) and are never sent to the browser.
+This is a personal tool, not a product. It runs only on my own computer, for my own shop,
+using my registered Etsy app's credentials, which are kept in a local, git-ignored
+`.env.local` file and are never committed, shared or sent to the browser. It is not offered to
+other users, and nobody else needs or should create Etsy API keys to use it.
 
 ---
 
